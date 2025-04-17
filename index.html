@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Google Clone</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #fff;
+    }
+    input[type="text"] {
+      width: 400px;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 24px;
+      font-size: 18px;
+      outline: none;
+    }
+    button {
+      margin-top: 20px;
+      padding: 10px 24px;
+      font-size: 16px;
+      border: none;
+      background-color: #4285f4;
+      color: white;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    .footer {
+      position: absolute;
+      bottom: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+    .footer a {
+      text-decoration: none;
+      color: #4285f4;
+    }
+  </style>
+</head>
+<body>
+  <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Clone Logo" />
+  <form id="searchForm">
+    <input type="text" id="query" placeholder="Search Google..." />
+    <button type="submit">Search</button>
+  </form>
+
+  <div class="footer">
+    Made by <a href="https://github.com/tubakhxn" target="_blank">Tuba A. Khan</a>
+  </div>
+
+  <script>
+    const form = document.getElementById('searchForm');
+    form.addEventListener('submit', function(e) {
+      e.preventDefault();
+      const query = document.getElementById('query').value;
+      window.location.href = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+    });
+  </script>
+</body>
+</html>
