@@ -1,5 +1,11 @@
-A quick look on the clone
-![image](https://github.com/user-attachments/assets/917b48d2-1106-4f50-9c42-4cd0b001c0cc)
-<video src="https://github.com/yourusername/google-clone/assets/yourvideo.mp4" controls width="100%"></video>
+<p align="center">
+  <strong>A quick look on the clone</strong>
+</p>
 
-Check it out here: https://google-clonebytuba.vercel.app/
+<p align="center">
+  <img src="./clone%20google.gif" alt="Demo" />
+</p>
+
+<p align="center">
+  <a href="https://google-clonebytuba.vercel.app/">Check it out here: https://google-clonebytuba.vercel.app/</a>
+</p>
